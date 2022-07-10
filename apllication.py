@@ -26,7 +26,7 @@ Session(app)
 
 
 
-client = pymongo.MongoClient("mongodb+srv://ankit0996:<password>@cluster0.2u8yabf.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+client = pymongo.MongoClient("mongodb+srv://ankit0996:W2afcpibwEKFcjRZ@cluster0.2u8yabf.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 db = client.test
 
 # Make sure API key is set
